@@ -12,6 +12,7 @@ public class MqttConnectionSingleton
     {
         if (_client == null)
         {
+            _persistence = new MemoryPersistence();
             _client = new MqttClient(broker, clientId, _persistence);
 
             if (options != null)

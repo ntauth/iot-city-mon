@@ -12,7 +12,7 @@ public class ClientMain
 {
     private static String _MQTT_BROKER = "tcp://iot.eclipse.org:1883";
 
-    public static int main(String[] args)
+    public static void main(String[] args)
     {
         MqttConnectOptions opts = new MqttConnectOptions();
         opts.setCleanSession(true);
@@ -35,7 +35,6 @@ public class ClientMain
         } catch (MqttException e) {
             // @todo: Log failure
             e.printStackTrace();
-            return 1;
         }
     }
 }
