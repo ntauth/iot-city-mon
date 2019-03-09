@@ -34,6 +34,10 @@ public class MqttWorker implements Runnable
         }
     }
 
+    public MqttWorker(MqttQueue queue) {
+        _queue = queue;
+    }
+
     @Override
     public void run() {
         worker();
