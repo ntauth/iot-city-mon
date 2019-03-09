@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/UI/UI.iml" filepath="$PROJECT_DIR$/UI/UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/elastic-processor/elastic-processor.iml" filepath="$PROJECT_DIR$/elastic-processor/elastic-processor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/iot-citymon.iml" filepath="$PROJECT_DIR$/.idea/iot-citymon.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqtt-client/mqtt-client.iml" filepath="$PROJECT_DIR$/mqtt-client/mqtt-client.iml" />
