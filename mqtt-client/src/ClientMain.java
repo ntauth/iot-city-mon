@@ -1,4 +1,5 @@
 import javafx.util.Pair;
+import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 
@@ -10,7 +11,7 @@ import java.io.Serializable;
  */
 public class ClientMain
 {
-    private static String _MQTT_BROKER = "tcp://iot.eclipse.org:1883";
+    private static String _MQTT_BROKER = "tcp://localhost:1883";
 
     public static void main(String[] args)
     {
@@ -19,10 +20,11 @@ public class ClientMain
 
         try
         {
-            MqttConnectionSingleton.getClient(_MQTT_BROKER, System.getenv("MQTT_CLIENT_ID"), opts);
+            MqttClient client = MqttConnectionSingleton.getClient(_MQTT_BROKER, System.getenv("MQTT_CLIENT_ID"), opts);
             MqttQueue queue = new MqttQueue();
 
-            new Thread(new MqttWorker(queue)).setDaemon(true);
+            Thread worker = new Thread(new MqttWorker(client, queue));
+            worker.start();
 
             while (true) {
                 try {

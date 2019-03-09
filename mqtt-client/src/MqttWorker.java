@@ -34,7 +34,8 @@ public class MqttWorker implements Runnable
         }
     }
 
-    public MqttWorker(MqttQueue queue) {
+    public MqttWorker(MqttClient mqttClient, MqttQueue queue) {
+        _mqttClient = mqttClient;
         _queue = queue;
     }
 

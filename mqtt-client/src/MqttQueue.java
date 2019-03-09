@@ -9,6 +9,10 @@ public class MqttQueue
     private ConcurrentLinkedQueue<Pair<String, Serializable>> _queue;
     private boolean _locked;
 
+    public MqttQueue() {
+        _queue = new ConcurrentLinkedQueue<>();
+        _locked = false;
+    }
     public void enqueue(Pair<String, Serializable> msg) {
         if (_locked)
             throw new IllegalStateException("MqttQueue is locked.");
@@ -17,7 +21,7 @@ public class MqttQueue
     }
 
     public Optional<Pair<String, Serializable>> dequeue() {
-        return Optional.of(_queue.poll());
+        return Optional.ofNullable(_queue.poll());
     }
 
     public boolean isLocked() {
