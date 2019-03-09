@@ -1,4 +1,3 @@
-import com.google.common.collect.Collections2.*;
 import org.eclipse.paho.client.mqttv3.MqttClient;
 
 import javafx.util.Pair;
@@ -7,7 +6,6 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 import java.io.Serializable;
 import java.util.Optional;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class MqttWorker implements Runnable
 {
