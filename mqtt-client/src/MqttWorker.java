@@ -3,6 +3,7 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 import javafx.util.Pair;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.eclipse.paho.client.mqttv3.logging.JSR47Logger;
 
 import java.io.Serializable;
 import java.util.Optional;
@@ -13,6 +14,7 @@ public class MqttWorker implements Runnable
     private MqttClient _mqttClient;
     private long _publishedMessageCount;
     private long _readMessageCount;
+    private static JSR47Logger _logger = new JSR47Logger();
 
     private void worker()
     {
@@ -26,7 +28,7 @@ public class MqttWorker implements Runnable
                     _mqttClient.publish(_msg.getKey(), new MqttMessage(_msg.getValue().toString().getBytes()));
                     _publishedMessageCount++;
                 } catch (MqttException e) {
-                    e.printStackTrace();
+                    _logger.severe(this.getClass().getName(), "worker", e.getMessage());
                 }
             });
         }

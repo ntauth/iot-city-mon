@@ -38,7 +38,7 @@ public class ClientMain
             for (;;)
             {
                 try {
-                    queue.enqueue(new Pair<String, Serializable>("iot-citymon-test", "ACK"));
+                    queue.enqueue(new Pair<String, Serializable>("monitor-snapshot", new MonitorSnapshot()));
                     Thread.sleep(500);
                 } catch (InterruptedException e) {
                     _logger.severe(ClientMain.class.getName(), "main", e.getMessage());
