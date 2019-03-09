@@ -8,7 +8,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'FEATURES',
+    title: 'MONITORING',
     group: true,
   },
   {
@@ -17,7 +17,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
 
       {
-        title: 'Leaflet Maps',
+        title: 'Bus Live Tracking',
         link: '/pages/maps/leaflet',
       },
     ],

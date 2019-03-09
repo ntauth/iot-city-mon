@@ -45,6 +45,7 @@ import { EarningCardBackComponent } from './earning-card/back-side/earning-card-
 import { EarningPieChartComponent } from './earning-card/back-side/earning-pie-chart.component';
 import { EarningCardFrontComponent } from './earning-card/front-side/earning-card-front.component';
 import { EarningLiveUpdateChartComponent } from './earning-card/front-side/earning-live-update-chart.component';
+import { ECommerceChartsPanel2Component} from './charts-panel2/charts-panel.component2';
 
 @NgModule({
   imports: [
@@ -61,6 +62,7 @@ import { EarningLiveUpdateChartComponent } from './earning-card/front-side/earni
     StatsBarAnimationChartComponent,
     ProfitCardComponent,
     ECommerceChartsPanelComponent,
+    ECommerceChartsPanel2Component,
     ChartPanelHeaderComponent,
     ChartPanelSummaryComponent,
     OrdersChartComponent,
