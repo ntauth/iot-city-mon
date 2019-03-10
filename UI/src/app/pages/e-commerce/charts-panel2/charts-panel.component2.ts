@@ -3,14 +3,14 @@ import { takeWhile } from 'rxjs/operators';
 
 import { OrdersChartComponent } from '../charts-panel/charts/orders-chart.component';
 import { ProfitChartComponent } from '../charts-panel/charts/profit-chart.component';
-import { OrdersChart } from '../../../@core/data/orders-chart';
+import {OrdersChart} from '../../../@core/data/orders-chart';
 import { ProfitChart } from '../../../@core/data/profit-chart';
 import { OrderProfitChartSummary, OrdersProfitChartData } from '../../../@core/data/orders-profit-chart';
 
 @Component({
   selector: 'ngx-ecommerce-charts2',
   styleUrls: ['../charts-panel/charts-panel.component.scss'],
-  templateUrl: './charts-panel.component2.html',
+  templateUrl: './charts-panel2/charts-panel.component2.html',
 })
 export class ECommerceChartsPanel2Component implements OnDestroy, OnInit {
 

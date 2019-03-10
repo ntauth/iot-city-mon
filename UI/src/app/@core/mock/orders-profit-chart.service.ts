@@ -7,20 +7,7 @@ import { ProfitChart, ProfitChartData } from '../data/profit-chart';
 @Injectable()
 export class OrdersProfitChartService extends OrdersProfitChartData {
 
-  private summary = [
-    {
-      title: 'Last Month',
-      value: 946,
-    },
-    {
-      title: 'Last Week',
-      value: 654,
-    },
-    {
-      title: 'Today',
-      value: 230,
-    },
-  ];
+  private summary = [];
 
   constructor(private ordersChartService: OrdersChartData,
               private profitChartService: ProfitChartData) {

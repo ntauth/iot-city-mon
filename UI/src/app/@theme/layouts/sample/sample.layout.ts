@@ -27,7 +27,7 @@ import { StateService } from '../../../@core/utils';
                    [end]="sidebar.id === 'end'">
         <nb-sidebar-header>
           <a href="#" class="btn btn-hero-success main-btn">
-            <span><i class="ion ion-link"></i> Open Kibana</span>
+            <i class="ion ion-link"></i> <span>Open Kibana</span>
           </a>
         </nb-sidebar-header>
         <ng-content select="nb-menu"></ng-content>

@@ -1,9 +1,9 @@
-import {Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
+import {Component, Input, OnDestroy, OnInit, ViewChild} from '@angular/core';
 import { takeWhile } from 'rxjs/operators';
 
 import { OrdersChartComponent } from './charts/orders-chart.component';
 import { ProfitChartComponent } from './charts/profit-chart.component';
-import { OrdersChart } from '../../../@core/data/orders-chart';
+import {OrdersChart} from '../../../@core/data/orders-chart';
 import { ProfitChart } from '../../../@core/data/profit-chart';
 import { OrderProfitChartSummary, OrdersProfitChartData } from '../../../@core/data/orders-profit-chart';
 
@@ -12,7 +12,7 @@ import { OrderProfitChartSummary, OrdersProfitChartData } from '../../../@core/d
   styleUrls: ['./charts-panel.component.scss'],
   templateUrl: './charts-panel.component.html',
 })
-export class ECommerceChartsPanelComponent implements OnDestroy, OnInit{
+export class ECommerceChartsPanelComponent implements OnDestroy, OnInit {
 
   private alive = true;
 
@@ -20,6 +20,9 @@ export class ECommerceChartsPanelComponent implements OnDestroy, OnInit{
   period: string = 'week';
   ordersChartData: OrdersChart;
   profitChartData: ProfitChart;
+
+  @Input()
+  title: string;
 
   @ViewChild('ordersChart') ordersChart: OrdersChartComponent;
   @ViewChild('profitChart') profitChart: ProfitChartComponent;

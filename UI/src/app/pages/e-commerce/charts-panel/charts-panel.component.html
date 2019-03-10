@@ -1,10 +1,8 @@
 <nb-card size="large">
   <nb-tabset fullWidth (changeTab)="changeTab($event)">
-    <nb-tab tabTitle="Air Pollution">
+    <nb-tab tabTitle="{{title}}">
       <div class="chart-container">
-        <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
-        <ngx-chart-panel-header [type]="period"
-                                (periodChange)="setPeriodAndGetChartData($event)">
+        <ngx-chart-panel-header [type]="period" (periodChange)="setPeriodAndGetChartData($event)">
         </ngx-chart-panel-header>
         <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart>
       </div>
