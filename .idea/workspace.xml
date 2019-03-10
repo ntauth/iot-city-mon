@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d46e2707-82ff-42f0-bb3c-291ffad094b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/iot-citymon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iot-citymon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ConfigurationProviderSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/path.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/MonitorSnapshot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/Sensors/AirQualitySensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/Sensors/GpsSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/Sensors/ISensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/Sensors/SensorBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/mqtt-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/src/ClientMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/src/MqttConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/src/MqttConnectionSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/src/MqttQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-client/src/MqttWorker.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +13,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core-processor/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="285">
+              <caret line="49" column="88" lean-forward="true" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-processor/profiles.xml">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-processor/src/ProcessorMain.java">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorSnapshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="-7">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,31 +49,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-processor/core-processor.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-376" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/shared.iml">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Collector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-collector/core-collector.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/src/ConfigurationProviderSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,37 +61,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-collector/src/Mqtt/MqttWorker.java">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="215">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticProcessor.java">
+        <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttAsyncConnectionSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttElasticHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttElasticProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorSimulatorStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,6 +140,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>async</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -167,9 +174,7 @@
         <option value="$PROJECT_DIR$/core-collector/src/CollectorSnapshot.java" />
         <option value="$PROJECT_DIR$/core-collector/src/ICollectorStrategy.java" />
         <option value="$PROJECT_DIR$/core-collector/src/CollectorSimulatorStrategy.java" />
-        <option value="$PROJECT_DIR$/core-collector/src/Mqtt/MqttQueue.java" />
         <option value="$PROJECT_DIR$/core-collector/src/Collector.java" />
-        <option value="$PROJECT_DIR$/core-collector/src/Mqtt/MqttWorker.java" />
         <option value="$PROJECT_DIR$/core-processor/src/DataHandler.java" />
         <option value="$PROJECT_DIR$/core-processor/src/Mqtt/MqttConnectionSingleton.java" />
         <option value="$PROJECT_DIR$/core-processor/src/MqttElasticProcessor.java" />
@@ -177,15 +182,26 @@
         <option value="$PROJECT_DIR$/core-collector/src/Mqtt/MqttConnectionSingleton.java" />
         <option value="$PROJECT_DIR$/core-processor/src/MqttAsyncConnectionSingleton.java" />
         <option value="$PROJECT_DIR$/core-processor/src/MqttElasticHandler.java" />
-        <option value="$PROJECT_DIR$/core-collector/src/CollectorMain.java" />
         <option value="$PROJECT_DIR$/core-processor/src/Mqtt/ProcessorMain.java" />
         <option value="$PROJECT_DIR$/core-processor/src/Mqtt/MqttAsyncConnectionSingleton.java" />
-        <option value="$PROJECT_DIR$/core-processor/src/ProcessorMain.java" />
-        <option value="$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticProcessor.java" />
         <option value="$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticHandler.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/core-processor/profiles.xml" />
         <option value="$PROJECT_DIR$/core-processor/pom.xml" />
+        <option value="$PROJECT_DIR$/shared/src/Pair.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticProcessor.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/CollectorMain.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/Mqtt/MqttQueue.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/Processor/ProcessorMain.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/ProcessorMain.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/Mqtt/MqttWorker.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttQueue.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttWorker.java" />
+        <option value="$PROJECT_DIR$/core-collector/src/Iot/CollectorMain.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttAsyncConnectionSingleton.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/Iot/ProcessorMain.java" />
+        <option value="$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttElasticHandler.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -197,10 +213,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="53" />
-    <option name="y" value="130" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,11 +232,6 @@
             </path>
             <path>
               <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="core-collector" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
               <item name="core-processor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,6 +243,13 @@
               <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
               <item name="core-processor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="core-processor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Iot" type="462c0819:PsiDirectoryNode" />
               <item name="Mqtt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,6 +260,12 @@
               <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot-citymon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Iot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProcessorMain">
+  <component name="RunManager" selected="Application.CollectorMain">
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -303,15 +326,29 @@
       </method>
     </configuration>
     <configuration name="CollectorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectorMain" />
+      <option name="MAIN_CLASS_NAME" value="Iot.CollectorMain" />
       <module name="core-collector" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessorMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iot.ProcessorMain" />
+      <module name="core-processor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Iot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProcessorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProcessorMain" />
+      <option name="MAIN_CLASS_NAME" value="Processor.ProcessorMain" />
       <module name="core-processor" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -342,11 +379,13 @@
     <list>
       <item itemvalue="Application.CollectorMain" />
       <item itemvalue="Application.ProcessorMain" />
+      <item itemvalue="Application.ProcessorMain (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProcessorMain" />
+        <item itemvalue="Application.ProcessorMain (1)" />
         <item itemvalue="Application.CollectorMain" />
+        <item itemvalue="Application.ProcessorMain" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +403,7 @@
       <workItem from="1552138597547" duration="139000" />
       <workItem from="1552138850709" duration="3301000" />
       <workItem from="1552142325896" duration="17851000" />
-      <workItem from="1552174121810" duration="8199000" />
+      <workItem from="1552174121810" duration="17034000" />
     </task>
     <task id="LOCAL-00001" summary="Edit README">
       <created>1552142016066</created>
@@ -373,17 +412,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552142016066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reorganize project structure">
+      <created>1552182529433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552182529433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29561000" />
+    <option name="totallyTimeSpent" value="38396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3374036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3374036" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -391,8 +437,8 @@
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32896462" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32839838" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.3257066" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -400,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32839838" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -417,20 +463,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master-cfg4j'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Edit README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit README" />
+    <MESSAGE value="Reorganize project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganize project structure" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -449,26 +489,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start-hack-2019.iml" />
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Sensors/SensorBase.java">
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Sensors/SensorBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Sensors/GpsSensor.java">
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Sensors/GpsSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#386#387#0" />
+            <element signature="e#417#418#0" />
+            <element signature="e#464#465#0" />
+            <element signature="e#504#505#0" />
+            <element signature="e#539#540#0" />
+            <element signature="e#571#572#0" />
+            <element signature="e#620#621#0" />
+            <element signature="e#662#663#0" />
           </folding>
         </state>
       </provider>
@@ -480,7 +520,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_org_eclipse_paho_client_mqttv3_1_2_1.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Sensors/AirQualitySensor.java">
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Sensors/AirQualitySensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
@@ -498,17 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Sensors/ISensor.java">
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Sensors/ISensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/CollectorStrategyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -516,13 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="843" selection-start-line="843" selection-end-line="843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/ICollectorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -536,111 +562,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Mqtt/MqttQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/CollectorSnapshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="125" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Mqtt/MqttConnectionSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/CollectorSimulatorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Collector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/MqttConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/src/ProcessorMain.java">
+    <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/ProcessorMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/CollectorMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/src/Mqtt/MqttAsyncConnectionSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-collector/src/Mqtt/MqttWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -701,28 +628,6 @@
     <entry file="file://$PROJECT_DIR$/core-processor/src/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/src/Mqtt/MqttElasticHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/ConfigurationProviderSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shared/shared.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -752,20 +657,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/src/ProcessorMain.java">
+    <entry file="file://$PROJECT_DIR$/core-processor/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/Iot/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/Iot/MqttConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shared/src/Iot/ConfigurationProviderSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-processor/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttConnectionSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/ICollectorStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorStrategyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorSnapshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorSimulatorStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.1/org.eclipse.paho.client.mqttv3-1.2.1.jar!/org/eclipse/paho/client/mqttv3/logging/JSR47Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/CollectorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="49" column="88" lean-forward="true" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-collector/src/Iot/Mqtt/MqttWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttAsyncConnectionSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/ProcessorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttElasticProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-processor/src/Iot/Mqtt/MqttElasticHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -822,12 +898,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>core-processor</last-edited>
+          <last-edited>core-collector</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.47011495" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
