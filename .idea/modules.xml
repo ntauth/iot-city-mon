@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/iot-citymon.iml" filepath="$PROJECT_DIR$/.idea/iot-citymon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mqtt-client/mqtt-client.iml" filepath="$PROJECT_DIR$/mqtt-client/mqtt-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-collector/core-collector.iml" filepath="$PROJECT_DIR$/core-collector/core-collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-processor/core-processor.iml" filepath="$PROJECT_DIR$/core-processor/core-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />
     </modules>
   </component>
 </project>
